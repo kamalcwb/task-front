@@ -1,0 +1,83 @@
+.tarefas {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+.tarefas-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tarefas-form input[type='text'] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tarefas-form textarea {
+    width: 95%;
+    height: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    /* Impede redimensionamento */
+}
+
+.tarefas-form button[type='submit'] {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tarefas-form button[type='submit']:hover {
+    background-color: #45a049;
+}
+
+.tarefas-lista {
+    margin-top: 20px;
+}
+
+.tarefas-lista h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.tarefas-lista p {
+    margin-top: 0;
+}
+
+.tarefas-lista ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.tarefas-lista li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    word-wrap: break-word;
+    /* Quebra as palavras longas */
+}
+
+.tarefas-lista li strong {
+    font-size: 16px;
+}
+
+.tarefas-lista li p {
+    margin-top: 5px;
+    font-size: 14px;
+}
