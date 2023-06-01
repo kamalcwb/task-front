@@ -35,7 +35,7 @@ const Tarefas = () => {
             try {
                 const response = await api.post(`/tarefas/salvar`, novaTarefa);
                 if (response.data.message) {
-                    setMsgEndpoint(response.data.message);
+                    // setMsgEndpoint(response.data.message);
                 }
 
             } catch (error) {
